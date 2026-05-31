@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AIAssistantCustomInstructionsStorage">
+    <option name="instructions">
+      <map>
+        <entry key="AIAssistant.VCS.GenerateCommitMessage">
+          <value>
+            <AIAssistantStoredInstruction>
+              <option name="actionId" value="AIAssistant.VCS.GenerateCommitMessage" />
+              <option name="content" value="過度に冗長な説明や不必要な詳細は避けてください。&#10;命令形の短い文で始め、50 文字以内で書きます。&#10;次に空白行を残し、より詳細な説明を続けます。&#10;最初の部分には 1 文だけ書き、詳細な説明には最大で 2 文または 3 文を書きます。&#10;&#10;メッセージをできるだけ短くしてください。&#10;日本語で回答してください。&#10;複数の変更は必ず箇条書きを使用してください。" />
+            </AIAssistantStoredInstruction>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1cd5bbef-950e-4a54-84e4-4674575cf809" name="変更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="81" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="C:\Users\lenli\IdeaProjects\AutoServerReconnect">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="autoserverreconnect" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="autoserverreconnect" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="autoserverreconnect" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="forgegradle runs" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.2443135971404992E-24" />
+      <entry key="MS500" value="1.8630165293413295E-5" />
+      <entry key="S2" value="0.06569830681798167" />
+      <entry key="S5" value="0.33652836134835545" />
+      <entry key="S10" value="0.5801106457809195" />
+      <entry key="S30" value="0.83400812509397" />
+      <entry key="S60" value="0.9133999938875031" />
+      <entry key="M2" value="0.9825597609552352" />
+      <entry key="M5" value="1.6390425526265018" />
+      <entry key="M10" value="3.5499603140910287" />
+      <entry key="M15" value="6.316152732821888" />
+      <entry key="M30" value="16.921904032753034" />
+      <entry key="H1" value="34.534591393390734" />
+      <entry key="H2" value="53.43324292744226" />
+      <entry key="H4" value="68.24628853809094" />
+      <entry key="D1" value="85.0156160884514" />
+      <entry key="W1" value="88.41609955145765" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0000255168021606" />
+      <entry key="MS500" value="1.1522610068164556" />
+      <entry key="S2" value="2.01117760197085" />
+      <entry key="S5" value="2.5174177309142545" />
+      <entry key="S10" value="2.741107189621578" />
+      <entry key="S30" value="2.9094486786534226" />
+      <entry key="S60" value="2.954578711572947" />
+      <entry key="M2" value="3.0387575756190173" />
+      <entry key="M5" value="4.416505978584439" />
+      <entry key="M10" value="8.73991429882433" />
+      <entry key="M15" value="15.780268733450862" />
+      <entry key="M30" value="44.0267761023659" />
+      <entry key="H1" value="88.90902931707107" />
+      <entry key="H2" value="133.44760660735597" />
+      <entry key="H4" value="166.28249000031397" />
+      <entry key="D1" value="201.7818642715041" />
+      <entry key="W1" value="208.800351254442" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.1921097870542354" />
+      <entry key="MS500" value="0.7895141238615785" />
+      <entry key="S2" value="1.8039534515617326" />
+      <entry key="S5" value="2.650074119468485" />
+      <entry key="S10" value="3.182642509767845" />
+      <entry key="S30" value="3.6848612207426448" />
+      <entry key="S60" value="3.836750156109675" />
+      <entry key="M2" value="4.004734156227938" />
+      <entry key="M5" value="6.044406701342942" />
+      <entry key="M10" value="12.274936320488173" />
+      <entry key="M15" value="22.073329845232582" />
+      <entry key="M30" value="60.906827069264345" />
+      <entry key="H1" value="123.39618616071527" />
+      <entry key="H2" value="186.8429141412371" />
+      <entry key="H4" value="234.50427790485972" />
+      <entry key="D1" value="286.79235941385787" />
+      <entry key="W1" value="297.21568929037096" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3DFx9vBCej7Sm2t07qzASzq2Js1" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.AutoServerReconnect [createMcpToSrg].executor": "Run",
+    "Gradle.AutoServerReconnect [runClient].executor": "Debug",
+    "Gradle.AutoServerReconnect [runServer].executor": "Run",
+    "Gradle.AutoServerReconnect のビルド.executor": "Run",
+    "Gradle.Build.executor": "Run",
+    "Gradle.C:/Users/lenli/IdeaProjects/AutoServerReconnect [createMcpToSrg].executor": "Run",
+    "Gradle.C:/Users/lenli/IdeaProjects/AutoServerReconnect [genIntellijRuns].executor": "Run",
+    "Gradle.C:/Users/lenli/IdeaProjects/AutoServerReconnect [wrapper].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.AutoServerReconnect [runClient]">
+    <configuration name="AutoServerReconnect [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AutoServerReconnect [runServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Build" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" value="Build" />
+        <option name="externalProjectPath" value="C:\Users\lenli\IdeaProjects\AutoServerReconnect" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AutoServerReconnect [runClient]" />
+        <item itemvalue="Gradle.AutoServerReconnect [runServer]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="デフォルトタスク">
+      <changelist id="1cd5bbef-950e-4a54-84e4-4674575cf809" name="変更" comment="" />
+      <created>1777891471165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777891471165</updated>
+      <workItem from="1777891475207" duration="3005000" />
+      <workItem from="1778023307721" duration="73000" />
+      <workItem from="1778222654276" duration="54000" />
+      <workItem from="1778323835037" duration="1524000" />
+      <workItem from="1778365110113" duration="12000" />
+      <workItem from="1780132974855" duration="3975000" />
+      <workItem from="1780184322760" duration="5317000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
