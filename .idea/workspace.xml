@@ -18,7 +18,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cd5bbef-950e-4a54-84e4-4674575cf809" name="変更" comment="" />
+    <list default="true" id="1cd5bbef-950e-4a54-84e4-4674575cf809" name="変更" comment="セットアップに対応する Intellij プロジェクトファイルを追加&#10;&#10;- Gradle設定、モジュールファイル、コンパイラ設定を更新  &#10;- 開発用およびテスト用のビルド設定とラン構成を追加  &#10;- 必要なリモートリポジトリ設定とVCS設定を追加">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lenlino/autoserverreconnect/client/ReconnectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lenlino/autoserverreconnect/client/ReconnectHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,67 +79,79 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lenlino"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lenlino/autoserverreconnect.git",
+    "accountId": "f9951125-2c2d-4e74-aec7-b3d9bcfd95cf"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.2443135971404992E-24" />
-      <entry key="MS500" value="1.8630165293413295E-5" />
-      <entry key="S2" value="0.06569830681798167" />
-      <entry key="S5" value="0.33652836134835545" />
-      <entry key="S10" value="0.5801106457809195" />
-      <entry key="S30" value="0.83400812509397" />
-      <entry key="S60" value="0.9133999938875031" />
-      <entry key="M2" value="0.9825597609552352" />
-      <entry key="M5" value="1.6390425526265018" />
-      <entry key="M10" value="3.5499603140910287" />
-      <entry key="M15" value="6.316152732821888" />
-      <entry key="M30" value="16.921904032753034" />
-      <entry key="H1" value="34.534591393390734" />
-      <entry key="H2" value="53.43324292744226" />
-      <entry key="H4" value="68.24628853809094" />
-      <entry key="D1" value="85.0156160884514" />
-      <entry key="W1" value="88.41609955145765" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000012534052" />
+      <entry key="S60" value="1.0000354096477713" />
+      <entry key="M2" value="1.0061177154859864" />
+      <entry key="M5" value="1.2149227304203227" />
+      <entry key="M10" value="2.285492532757165" />
+      <entry key="M15" value="4.208854289857205" />
+      <entry key="M30" value="13.06140538821854" />
+      <entry key="H1" value="30.156048585080867" />
+      <entry key="H2" value="50.09629327436261" />
+      <entry key="H4" value="66.4180544287353" />
+      <entry key="D1" value="85.4180152735477" />
+      <entry key="W1" value="89.32704464272085" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000255168021606" />
-      <entry key="MS500" value="1.1522610068164556" />
-      <entry key="S2" value="2.01117760197085" />
-      <entry key="S5" value="2.5174177309142545" />
-      <entry key="S10" value="2.741107189621578" />
-      <entry key="S30" value="2.9094486786534226" />
-      <entry key="S60" value="2.954578711572947" />
-      <entry key="M2" value="3.0387575756190173" />
-      <entry key="M5" value="4.416505978584439" />
-      <entry key="M10" value="8.73991429882433" />
-      <entry key="M15" value="15.780268733450862" />
-      <entry key="M30" value="44.0267761023659" />
-      <entry key="H1" value="88.90902931707107" />
-      <entry key="H2" value="133.44760660735597" />
-      <entry key="H4" value="166.28249000031397" />
-      <entry key="D1" value="201.7818642715041" />
-      <entry key="W1" value="208.800351254442" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="9.06292727507347E-133" />
+      <entry key="S5" value="2.900564419312626E-53" />
+      <entry key="S10" value="9.304427002634724E-27" />
+      <entry key="S30" value="4.37252101654455E-9" />
+      <entry key="S60" value="1.1453973307335462E-4" />
+      <entry key="M2" value="0.01892022757012717" />
+      <entry key="M5" value="0.5791231730463491" />
+      <entry key="M10" value="3.1648507515648125" />
+      <entry key="M15" value="8.01699787234408" />
+      <entry key="M30" value="31.380912779031675" />
+      <entry key="H1" value="75.06201387739623" />
+      <entry key="H2" value="122.61623049256573" />
+      <entry key="H4" value="159.3914806856464" />
+      <entry key="D1" value="200.36347772007363" />
+      <entry key="W1" value="208.5900423138813" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.1921097870542354" />
-      <entry key="MS500" value="0.7895141238615785" />
-      <entry key="S2" value="1.8039534515617326" />
-      <entry key="S5" value="2.650074119468485" />
-      <entry key="S10" value="3.182642509767845" />
-      <entry key="S30" value="3.6848612207426448" />
-      <entry key="S60" value="3.836750156109675" />
-      <entry key="M2" value="4.004734156227938" />
-      <entry key="M5" value="6.044406701342942" />
-      <entry key="M10" value="12.274936320488173" />
-      <entry key="M15" value="22.073329845232582" />
-      <entry key="M30" value="60.906827069264345" />
-      <entry key="H1" value="123.39618616071527" />
-      <entry key="H2" value="186.8429141412371" />
-      <entry key="H4" value="234.50427790485972" />
-      <entry key="D1" value="286.79235941385787" />
-      <entry key="W1" value="297.21568929037096" />
+      <entry key="MS100" value="0.004549740572142405" />
+      <entry key="MS500" value="0.3400927131014887" />
+      <entry key="S2" value="0.7636587489803502" />
+      <entry key="S5" value="0.8977589277918203" />
+      <entry key="S10" value="0.947501413081701" />
+      <entry key="S30" value="0.9821849863359681" />
+      <entry key="S60" value="0.9912011999216355" />
+      <entry key="M2" value="1.020450869396838" />
+      <entry key="M5" value="1.7907889617158743" />
+      <entry key="M10" value="5.444035533163694" />
+      <entry key="M15" value="12.213521701716479" />
+      <entry key="M30" value="44.412187058595194" />
+      <entry key="H1" value="105.17786575636003" />
+      <entry key="H2" value="172.6775925327336" />
+      <entry key="H4" value="225.78601237733088" />
+      <entry key="D1" value="285.77640180270873" />
+      <entry key="W1" value="297.9163253164437" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -281,11 +295,46 @@
       <workItem from="1778323835037" duration="1524000" />
       <workItem from="1778365110113" duration="12000" />
       <workItem from="1780132974855" duration="3975000" />
-      <workItem from="1780184322760" duration="5317000" />
+      <workItem from="1780184322760" duration="5738000" />
     </task>
+    <task id="LOCAL-00001" summary="セットアップに対応する Intellij プロジェクトファイルを追加&#10;&#10;- Gradle設定、モジュールファイル、コンパイラ設定を更新  &#10;- 開発用およびテスト用のビルド設定とラン構成を追加  &#10;- 必要なリモートリポジトリ設定とVCS設定を追加">
+      <option name="closed" value="true" />
+      <created>1780189780243</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780189780243</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="セットアップに対応する Intellij プロジェクトファイルを追加&#10;&#10;- Gradle設定、モジュールファイル、コンパイラ設定を更新  &#10;- 開発用およびテスト用のビルド設定とラン構成を追加  &#10;- 必要なリモートリポジトリ設定とVCS設定を追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="セットアップに対応する Intellij プロジェクトファイルを追加&#10;&#10;- Gradle設定、モジュールファイル、コンパイラ設定を更新  &#10;- 開発用およびテスト用のビルド設定とラン構成を追加  &#10;- 必要なリモートリポジトリ設定とVCS設定を追加" />
+  </component>
+  <component name="com.gk646.codestats.settings.Save">
+    <option name="commitTimePoints">
+      <list>
+        <TimePoint>
+          <option name="timestamp" value="1780189780589" />
+          <option name="linesCode" value="224" />
+          <option name="totalLines" value="18278" />
+          <option name="info" value="セットアップに対応する Intellij プロジェクトファイルを追加&#10;&#10;- Gradle設定、モジュ" />
+        </TimePoint>
+      </list>
+    </option>
+    <option name="genericTimePoints">
+      <list>
+        <TimePoint>
+          <option name="timestamp" value="1780189780589" />
+          <option name="linesCode" value="224" />
+          <option name="totalLines" value="18278" />
+          <option name="info" value="2026/05/31" />
+        </TimePoint>
+      </list>
+    </option>
   </component>
 </project>

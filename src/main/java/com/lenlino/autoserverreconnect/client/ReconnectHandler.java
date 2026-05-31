@@ -97,8 +97,12 @@ public class ReconnectHandler {
 
     @SubscribeEvent
     public static void onScreenRender(ScreenEvent.Render.Post event) {
-        if (countdownTicks < 0) return;
         if (!(event.getScreen() instanceof DisconnectedScreen disconnectedScreen)) return;
+        if (reconnectBtn == null) return;
+
+        reconnectBtn.setPosition(disconnectedScreen.width / 2 - 100, disconnectedScreen.height - 60);
+
+        if (countdownTicks < 0) return;
 
         Minecraft mc = Minecraft.getInstance();
         int seconds = (countdownTicks + 19) / 20;
